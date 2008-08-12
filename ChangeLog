@@ -1,0 +1,25 @@
+(add new changes on top of this file)
+08-06-10 Martin Holtz
+	* Multimedia Objects Params accepts now config 
+	f.e.:  .multimedia.params =  wmod="transparent"
+	(width and height will be set autmatically)
+	use TS:
+	
+	tt_content.image.20.multimedia = swf
+tt_content.image.20.multimedia.params (
+autostart=TRUE
+autoplay=TRUE
+CONTROLLER=true
+LOOP=false
+
+)
+# Include the last empty LINE!
+# The Line-Breaks must be set for the MUTLIMEDIA Object
+
+07-03-16 Martin Holtz
+	* First Release - please read the readme file!
+
+07-03-13 Martin Holtz  <typo3@martinholtz.de>
+
+	* Initial release
+
